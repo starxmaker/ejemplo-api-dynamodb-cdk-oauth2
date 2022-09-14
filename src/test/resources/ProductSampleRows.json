@@ -1,0 +1,64 @@
+{
+    "products": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "3187b908-62f8-4ce8-ad90-2fa4f475b899"
+                    },
+                    "name": {
+                        "S": "Producto 1"
+                    },
+                    "description": {
+                        "S": "Descripción producto 1"
+                    },
+                    "brand": {
+                        "S": "Marca 1"
+                    },
+                    "model": {
+                        "S": "Modelo 1"
+                    },
+                    "category": {
+                        "S": "Categoría 1"
+                    },
+                    "price": {
+                        "N": "100"
+                    },
+                    "discount": {
+                        "N": "10"
+                    }  
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "id": {
+                        "S": "df45c476-ffb1-4e2b-bbe4-5e8aba6df7fe"
+                    },
+                    "name": {
+                        "S": "Producto 2"
+                    },
+                    "description": {
+                        "S": "Descripción producto 2"
+                    },
+                    "brand": {
+                        "S": "Marca 2"
+                    },
+                    "model": {
+                        "S": "Modelo 2"
+                    },
+                    "category": {
+                        "S": "Categoría 2"
+                    },
+                    "price": {
+                        "N": "200"
+                    },
+                    "discount": {
+                        "N": "20"
+                    }  
+                }
+            }
+        }
+    ]
+}
